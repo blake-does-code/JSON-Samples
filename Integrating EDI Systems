@@ -1,0 +1,24 @@
+{
+  "order_id": "456789",
+  "purchase_order": "PO123456",
+  "items": [
+    {
+      "sku": "ABC123",
+      "quantity": 100,
+      "description": "Widget A"
+    },
+    {
+      "sku": "DEF456",
+      "quantity": 50,
+      "description": "Widget B"
+    }
+  ],
+  "ship_to": {
+    "company_name": "DEF Corp",
+    "address": "400 Pine St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "country": "USA"
+  }
+}
