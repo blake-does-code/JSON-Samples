@@ -1,0 +1,28 @@
+{
+  "shipment_id": "12345",
+  "status": "In Transit",
+  "origin": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA"
+  },
+  "destination": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA"
+  },
+  "carrier": "FedEx",
+  "estimated_delivery": "2024-09-15",
+  "tracking_events": [
+    {
+      "timestamp": "2024-09-10T08:45:00Z",
+      "location": "New York, NY",
+      "status": "Package Picked Up"
+    },
+    {
+      "timestamp": "2024-09-11T12:30:00Z",
+      "location": "Columbus, OH",
+      "status": "In Transit"
+    }
+  ]
+}
