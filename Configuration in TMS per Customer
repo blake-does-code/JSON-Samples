@@ -1,0 +1,13 @@
+{
+  "client_id": "78901",
+  "shipment_rules": {
+    "preferred_carriers": ["FedEx", "DHL"],
+    "max_weight": 500,
+    "international_shipping": true
+  },
+  "notification_settings": {
+    "email": "logistics@client.com",
+    "sms": "+1234567890",
+    "notification_triggers": ["shipment_created", "delivered", "exception"]
+  }
+}
